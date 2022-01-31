@@ -1,10 +1,12 @@
-package HomeWork3;
+package HomeWork4;
+
+import HomeWork3.PropertyScanner;
 
 import java.io.IOException;
 
-public abstract class BaseApiTest {
+abstract class BaseApiTest {
 
-    private final String token;
+    public final String token;
     private final String baseUri;
     private final String userName;
     private final String imageHash;
